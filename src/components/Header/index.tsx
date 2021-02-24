@@ -1,5 +1,6 @@
 import React  from "react";
 import { ChamarDadosTs } from '../../types/ChamarTs'
+import Img from "../../img/perfil-2.png";
 
 
 function Header(props:ChamarDadosTs) {
@@ -8,7 +9,7 @@ function Header(props:ChamarDadosTs) {
   return (
     <>
       <div className="perfil">
-        <img src="https://lh3.googleusercontent.com/Px-KPYX1gOAkmiRUEpiUhkevSUiM7izIQpSmXzF44OR6e5F34wigyMA5TZi2sVf8dlfEmQ=s670"  alt="Perfil" />
+        <img src= {Img}  alt="Perfil" />
       </div>
       <div className="biografia">
         <h1>{nome}</h1>
