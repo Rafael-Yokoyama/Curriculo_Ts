@@ -67,13 +67,15 @@ h3::after {
   margin: 50px;
 }
 .experience h2 {
+
   position: relative;
   color: #2b2b30;
   font-size: 19px;
   text-transform: uppercase;
   border-bottom: 2px solid;
   padding-bottom: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .experience h2::after {
   position: absolute;
@@ -93,6 +95,7 @@ h3::after {
 }
 
 .experience-item p {
+
   border-bottom: 2px solid #2b2b30;
   flex-basis: 80%;
   padding: 20px;
